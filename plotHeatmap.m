@@ -2,7 +2,7 @@ clear all;
 close all;
 %load F2_CS_1N_13;
 %load F2_CS_1F_7;
-%load F2_CS_1F_20;
+load F2_CS_1F_20;
 %load F2_CS_1N_8;
 %load F2_CS_1S_18;
 %load F2_CS_1S_23;
@@ -15,7 +15,7 @@ close all;
 %load F4_SW_1_4;
 %load F4_SW_2_3;
 %load F6_SW_1_3;
-load F2_CFO_90-2_10;
+%load F2_CFO_90-2_10;
 fn = 'Helvetica';
 
 % ========================================================================
