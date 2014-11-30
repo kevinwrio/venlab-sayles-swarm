@@ -9,7 +9,8 @@ function [vOutput] = bFiltExtrap (hZ,vInput)
 % Brown University
 
 % Compute parameters
-% cutoff = (0.6/0.802);                                                       % standard VENLab parameters
+% cutoff = (0.6/0.802);                                                     % 'historical' VENLab parameters
+% cutoff = 0.75;                                                            % 'standard' VENLab parameters
 cutoff = 1;                                                                 % parameters from Rio, Rhea, & Warren (2014)   
 [B,A] = butter(4,cutoff/(hZ/2));                                      
 
